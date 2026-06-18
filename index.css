@@ -286,7 +286,7 @@ section{
 .portrait-card{
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
   flex: 0 0 min(320px, 100%);
 }
 
@@ -324,6 +324,7 @@ section{
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.4rem;
+  margin-top: 0.25rem;
   background: var(--glass);
   border: 1px solid var(--glass-line);
   border-radius: 14px;
